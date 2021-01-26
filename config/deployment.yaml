@@ -15,7 +15,7 @@ spec:
         app: catapp-avash
     spec:
       containers:
-        - name: catapp
+        - name: catapp-avash
           # This image will be overwritten by the update-deployment Task
           image: catapp:latest
           imagePullPolicy: Always
