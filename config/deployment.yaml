@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: catapp
+  name: catapp-avash
   labels:
-    app: catapp
+    app: catapp-avash
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: catapp
+      app: catapp-avash
   template:
     metadata:
       labels:
-        app: catapp
+        app: catapp-avash
     spec:
       containers:
         - name: catapp
