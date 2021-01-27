@@ -1,0 +1,2 @@
+project-name: test1
+stack: image-registry.openshift-image-registry.svc:5000/maganum-cp4a/catapp-avash:1 
